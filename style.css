@@ -1,0 +1,32 @@
+body
+{
+text-align: center;
+background-color: darkblue;
+}
+img 
+{
+height: 400px;
+width: 300px;
+}
+#gif
+{
+height: 200px;
+width: 400px;
+}
+#myCarousel
+{
+background-color: darkred;
+}
+.carousel-inner p
+{
+margin-bottom:15px;
+margin-top: 15px;
+color: white;
+font-size: 25px;
+}
+h1
+{
+font-size:30px;
+font-style: bold;
+font-family: cursive;
+}

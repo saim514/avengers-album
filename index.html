@@ -1,0 +1,105 @@
+<html>
+    <head>
+ <title>Avengers Photo Album</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+<h1>Avengers Photo Album</h1> 
+ <br>
+<img id = "gif" src="giphy.gif">
+<div>
+ <h1>Grid Gallery</h1> 
+<row><img src = "avengers-spiderman.jpg"><img src = "black%20p.jpg"><img src = "cap.jpg"><img src = "doc.jpg"></row>
+    </div>
+<div>
+<row><img src = "hulky%20boi.jpg"><img src = "ironman.jpg"><img src = "avengers-thor.jpg"><img src = "vision.jpg"></row>
+</div>
+<div>
+<h1>Sliding Gallery</h1>
+<div id = "myCarousel" class = "carousel slide">
+<!--wrapper for slides-->
+<div class = "carousel-inner">
+<div class = "item active">
+<center>
+<img src="avengers-spiderman.jpg"class="img-responsive">
+<div class="carousel-content">
+ <p>Spider-Man</p>   
+</div>
+</center>  
+</div>
+<div class = "item">
+<center>
+<img class = "img-responsive" src = "vision.jpg"> 
+<div class="carousel-content">
+<p>Vision</p>    
+</div>
+</center>
+</div>
+<div class = "item">
+<center>
+<img class = "img-responsive" src = "ironman.jpg">
+<div class="carousel-content">
+<p>Iron Man</p>
+</div>
+</center>
+</div>
+<div class = "item">
+<center>
+<img class = "img-responsive" src = "hulky%20boi.jpg"> 
+<div class="carousel-content">
+<p>Hulk</p>    
+</div>
+</center>
+</div>
+<div class = "item">
+<center>
+<img class = "img-responsive" src = "doc.jpg"> 
+<div class="carousel-content">
+<p>Doctor Strange</p>    
+</div>
+</center>
+</div>
+<div class = "item">
+<center>
+<img class = "img-responsive" src = "cap.jpg"> 
+<div class="carousel-content">
+<p>Captain America</p>    
+</div>
+</center>
+</div>   
+<div class = "item">
+<center>
+<img class = "img-responsive" src = "black%20p.jpg"> 
+<div class="carousel-content">
+<p>Black Panther</p>    
+</div>
+</center>
+</div>
+<div class = "item">
+<center>
+<img class = "img-responsive" src = "avengers-thor.jpg"> 
+<div class="carousel-content">
+<p>Thor</p>    
+</div>
+</center>
+</div>    
+    
+
+</div>
+<!--left and right controls-->
+<a class="left carousel-control" href="#myCarousel"data-slide="prev">
+<span class="glyphicon glyphicon-chevron-left"></span>   
+</a>
+<a class="right carousel-control" href="#myCarousel"data-slide="next">
+<span class="glyphicon glyphicon-chevron-right"></span>   
+</a>
+
+
+
+</div>
+</div>
+</body>
+</html>
